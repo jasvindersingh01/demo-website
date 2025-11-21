@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+html { scroll-behavior: smooth; }
+
+
 .logo {
   height: 50px;
   border-radius: 6%;

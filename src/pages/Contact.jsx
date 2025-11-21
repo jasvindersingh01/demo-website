@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="py-5 px-6 md:px-20 bg-white" id="contact">
+    <section className="py-5 px-6 md:px-20 bg-white scroll-mt-24  " id="contact">
       <h2 className="text-4xl font-bold text-blue-700 text-center mb-10">
         Contact Us
       </h2>
@@ -50,7 +50,7 @@ export default function Contact() {
             className="w-full px-4 py-2 rounded-lg border focus:outline-none"
           ></textarea>
 
-          <button className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 w-full">
+          <button className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 w-full cursor-pointer">
             Send Message
           </button>
         </form>

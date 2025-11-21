@@ -1,9 +1,14 @@
 import Institute from "../assets/A-One.jpg";
 
 export default function Hero() {
+
+  const scrollToContact = () => {
+
+  }
+
   return (
     <section
-      className="relative w-full h-[85vh] bg-cover bg-center scroll-mt-24" id="home"
+      className="relative w-full h-[87vh] bg-cover bg-center scroll-mt-24" id="home"
       style={{ backgroundImage: `url(${Institute})` }}
     >
       {/* Overlay */}
@@ -19,9 +24,13 @@ export default function Hero() {
           Kota’s trusted coaching institute for strong academic foundation and smart learning.
         </p>
 
-        <button className="bg-blue-600 px-6 py-3 rounded-lg text-white font-semibold hover:bg-blue-700 shadow-lg w-fit cursor-pointer">
+        <a
+          href="#contact"
+          className="bg-blue-600 px-6 py-3 rounded-lg text-white font-semibold hover:bg-blue-700 shadow-lg w-fit cursor-pointer inline-block"
+        >
           Contact Us
-        </button>
+        </a>
+
       </div>
     </section>
   );
